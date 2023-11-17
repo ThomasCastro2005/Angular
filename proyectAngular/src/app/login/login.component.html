@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <title>Inicio Sesion</title>
+</head>
+<body>
+
+    <header>
+        <img src="./assets/logo.png" alt="Logo">
+
+        <nav>
+            <ul>
+                <li><a href="#">Iniciar Sesion</a></li>
+                <li><a href="#">Registrarse</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    
+    <div class="container">
+        
+        <div class="container1">
+            <div class="autenticate">
+                        <div class="card-header">
+                            LOGIN
+                        </div>
+                        <div class="card-body">
+                            <div class="login">
+                                <label for="">Usuario</label><input type="text" id="" [(ngModel)]="usuario">
+                                <label for="">Contraseña</label><input type="password"  id=""  [(ngModel)]="password">
+                                <button  (click)="iniciarSesion()">Iniciar Sesión</button>
+                            </div>
+                        </div>
+            </div>
+        </div>
+        
+        
+        <div class="container2">
+            <img class="pokemon1" src="./img/pokemon1.png" alt="pokemon1">
+        </div>
+        
+        
+        
+        
+    </div>
+    
+</body>
+</html>

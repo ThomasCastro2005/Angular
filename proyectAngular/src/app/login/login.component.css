@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+
+body{
+    background-color: #000;
+    height: 100vh;
+    overflow: hidden;
+}
+
+
+
+/* ENCABEZADO */
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+
+header > nav > ul{
+    display: flex;
+    gap: 20px;
+}
+
+header > nav > ul li{
+    list-style: none;
+}
+
+header > nav > ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+header > nav > ul > li > a:hover{
+    color:rgb(219, 226, 7)505;
+}
+
+.container{
+    display: flex;
+}
+
+
+
+
+/* CONTENEDOR DEL LOGIN */
+
+.container1{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container .autenticate{
+    border-radius: 20px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+    position: absolute;
+    bottom: 90px;
+}
+
+.card-header{
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.card-body{
+    box-shadow: 1px 1px 20px 2px #025e56;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    margin: 20% 0;
+}
+
+.login{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+
+
+.card-body >.login > label{
+    width: 20%;
+    margin: 5% 0;
+    color: #fff;
+}
+
+.card-body >.login >input{
+    width: 100%;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 20px 2px #025e56;
+}
+
+.card-body >.login > button{
+    margin: 10% 0;
+    background: rgb(219, 226, 7)505;
+}
+
+
+
+
+
+
+
+/* CONTENEDOR 2 */
+
+.container2{
+    width: 50%;
+    height: 80vh;
+    background: blue;
+}
+
+.container2 > .pokemon1{
+    width: 2px;
+}
